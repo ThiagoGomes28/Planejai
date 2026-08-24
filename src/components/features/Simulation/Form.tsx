@@ -1,7 +1,9 @@
+import { StepProgress } from './Progress'
+
 export function SimulationForm() {
   return (
-    <div>
-      <h1>Simulation Form</h1>
-    </div>
+    <>
+      <StepProgress currentStep={3} totalSteps={6} />
+    </>
   )
 }
